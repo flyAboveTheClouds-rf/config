@@ -1,0 +1,13 @@
+# system aliases
+
+alias h="cd"
+alias s="cd -"
+alias u="cd .."
+alias ae="vi ~/.aliases"
+alias ve="vi ~/.variables"
+alias fu="vi ~/.functions"
+alias e="exa --all --reverse --sort=size"
+alias la="exa --all"
+alias ll="exa --long --all"
+alias lt="exa --long --tree --level=3"
+alias ld="exa --long --sort=modified"
