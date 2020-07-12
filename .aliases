@@ -1,6 +1,7 @@
 # system aliases
 
 alias h="cd"
+alias reload="source ~/.zshrc"
 alias s="cd -"
 alias u="cd .. && e"
 alias ae="vi ~/.aliases"
@@ -13,13 +14,19 @@ alias lt="exa --long --tree --level=3"
 alias ld="exa --long --sort=modified"
 alias z="vi ~/.zshrc"
 alias munix="ssh munix@192.168.43.147"
+alias rf="cd ~/universe"
 
 
 
-# system-specific
+# Mac-specific
 if [ "$(uname)" = "Darwin" ];
 then
 	alias i="brew install"
-else
+	alias o="open"
+fi
+
+# Linux-specific
+if [ "$(uname)" = "Linux" ];
+then
 	alias i="sudo apt install"
 fi
