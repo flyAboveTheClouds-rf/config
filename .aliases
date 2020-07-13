@@ -15,6 +15,7 @@ alias ld="exa --long --sort=modified"
 alias z="vi ~/.zshrc"
 alias munix="ssh munix@192.168.43.147"
 alias rf="cd ~/universe"
+alias t="tldr"
 
 
 
