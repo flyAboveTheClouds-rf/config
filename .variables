@@ -1,0 +1,5 @@
+# Add ruby to your PATH
+export PATH="/usr/local/opt/ruby/bin:$PATH"
+
+# To Support Jekyll
+export PATH="$HOME/.gem/ruby/2.7.0/bin:$PATH"

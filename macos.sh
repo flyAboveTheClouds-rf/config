@@ -18,6 +18,17 @@ echo "--> Remember to set your ZSH_THEME=\"powerlevel10k/powerlevel10k\" in ~/.z
 # install anybar
 brew cask install anybar
 
+# install emacs
+brew tap railwaycat/emacsmacport
+brew cask install emacs-mac
+
 # install mactex ( for emacs org-mode pdf-exporting )
 brew cask install mactex
 # don't install basictex
+
+
+# install ruby
+brew install ruby
+
+# install jekyll
+gem install --user-install bundler jekyll
