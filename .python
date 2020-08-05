@@ -1,0 +1,4 @@
+# all the aliases python needs
+
+alias py="python3"
+alias pip="pip3"
