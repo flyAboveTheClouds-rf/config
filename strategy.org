@@ -1,0 +1,44 @@
+* Attack Strategies
+** Ask Interesting Questions
+*** What Phrase or Idea does this statement represent?
+*** Create WordLists
+**** Search the code-base for interesting words
+*** What are the most interesting/boring parts of a code-base?
+**** Databases?
+**** Configuration?
+*** Why don't you remove pieces of code and run the program - See what happens?
+*** What files does the code-base write to disk?
+*** Can the code get online?
+**** Observe the behaviour of the program to understand the code behind it
+**** Like causing except statement errors in the program does what the code says it does
+*** What if i listed all the comments of a code-base in a file so I can pick the interesting parts of the code?
+*** Hey! list all the file-extensions of a code-base
+*** What are the phrasal files?
+*** What cool feature can I add to this program?
+*** What is this program built around? / What's its essence?
+*** What constants of this program can I change so I can modify its behaviour?
+*** Does this program have a Configuration file?
+*** How did the developer implement certain features?
+**** How'd she do it?
+*** How does the real world code work?
+*** Look for system-calls?
+** Use Tools
+*** You can search comment indicators like '#' '//' to quickly look if there are comments in the code-base
+*** Search Documentation from your editor
+**** Identify key-words from docs to search the code-base
+*** A Tool to identify phrasals
+*** A STANDARD to facilitate 'reading code'
+** Read Phrasally
+*** You should have a list/tree of all phrasal concepts
+*** A Summary of the Code?
+*** A Map[s] of the Code?
+** What you shouldn't do
+*** Don't start reading the code without asking Questions
+*** It must be a puzzle
+** Notes
+*** We want to see something familiar in the code to hang on, to crawl in
+*** If you see too many things you don't understand - it's a turnoff
+*** Maybe your tool should automatically search for familiar code
+*** Not just familiar code - holistic code - code that I can understand what it's doing
+*** So all you should do is find a familiar & grok-kable piece of code
+*** Your starting-piece-of-code should be meaningful, small
